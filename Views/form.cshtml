@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello friend!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Fill in your name and your friend"s name to create your custom greeting!</h1>
+        <form action="/greeting_card">
+            <div class="form-group">
+                <label for="sender">Your name</label>
+                <input id="sender" name="sender" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="recipient">Your friend"s name</label>
+                <input id="recipient" name="recipient" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="location">A vacation location</label>
+                <input id="location" name="location" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="souvenir">A souvenir to be brought back</label>
+                <input id="souvenir" name="souvenir" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Go!</button>
+        </form>
+    </body>
+</html>
